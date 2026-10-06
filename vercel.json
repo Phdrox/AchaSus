@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api-saude/:path*",
+      "destination": "https://apidadosabertos.saude.gov.br/:path*"
+    }
+  ]
+}

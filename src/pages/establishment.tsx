@@ -45,7 +45,7 @@ export default function Establishment() {
       setEstablishments(response.data.estabelecimentos)
     )
   }, [id, city])
-
+  
   return (
     <div className="flex flex-col gap-4">
       <Link to={'/'} className="flex justify-center items-center text-white text-xl m-2 p-1

@@ -11,7 +11,7 @@ export default defineConfig({
  server: {
     proxy: {
       '/api-saude': {
-        target: 'https://apidadosabertos.saude.gov.br',
+        target:'https://apidadosabertos.saude.gov.br',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api-saude/, ''),
