@@ -24,7 +24,7 @@ export default function Establishment() {
   useEffect(()=>{
     if(!id|| !city ) return;
 
-    apiGovData.get(`/estabelecimentos`,{
+    apiGovData.get(`/cnes/estabelecimentos`,{
       params:{
         codigo_tipo_unidade:id,
         codigo_municipio:city,
